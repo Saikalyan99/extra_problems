@@ -17,6 +17,7 @@ int main()
 	struct node *list1 = NULL;
 	list1 = create(list1);
 	list1 = traverse(&list1);
+	printf("The list after traversing = ");
 	print(list1);
 	getch();
 }
