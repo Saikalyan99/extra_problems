@@ -39,8 +39,8 @@ void main()
 		addition(str1, str2, strlen1, strlen2);										
 	else
 		addition(str2, str1, strlen2, strlen1);
-	free(str1,str2);
-	getch();
+	//free(str1,str2);
+	//getch();
 }
 void addition(char *str1, char *str2, int strlen1, int strlen2)
 {
